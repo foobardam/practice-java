@@ -2,7 +2,7 @@ package basic;
 
 import java.util.Random;
 
-public class RandomeTest {
+public class RandomTest {
 
 	/**
 	 * @param args

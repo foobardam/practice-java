@@ -3,7 +3,7 @@ package SWT;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 
-public class People {
+public class Person {
 	PropertyChangeSupport pcs = new PropertyChangeSupport(this);
 	
 	String firstName;
