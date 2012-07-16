@@ -8,8 +8,8 @@ import java.util.regex.Pattern;
 
 
 public class Bat {
-	public static int getNumber(final String ptn, final BufferedReader state) throws IOException {
-		for(String s = state.readLine(); s != null; s = state.readLine()){
+	public static int getNumber(final String ptn, final BufferedReader br) throws IOException {
+		for(String s = br.readLine(); s != null; s = br.readLine()){
 			Matcher m = Pattern.compile(ptn + "\\s*(\\d+).*").matcher(s);
 			if(m.matches())	return Integer.parseInt(m.group(1));
 		}
